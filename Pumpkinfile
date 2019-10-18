@@ -20,7 +20,7 @@ task "test": {
 actions: [
   {
     tasks: ["test"]
-    on push branches: ["master", "vinod/pumpkin"]
+    on push branches: ["master", "vinod-pumpkin"]
   },
   {
     tasks: ["test"]
